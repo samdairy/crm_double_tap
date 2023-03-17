@@ -26,15 +26,18 @@ footer {
 #footer-buttons-div {
     padding-bottom:15px
 }
-#footer-buttons-div 
-
-#btn-get-started{
+#footer-buttons-div button{
     font-size: 15pt;
-    color:white;
-    background-color: rgb(142, 230, 10);
-    border-radius: 5%;
+ 
+    border-radius: 3%;
     border-width: 0;
     padding: 02px;
+}
+
+#btn-get-started{
+    color:white;
+    background-color: rgb(142, 230, 10);
+    
     padding-right: 25px;
     padding-left: 25px;
     margin-right: 30px;
