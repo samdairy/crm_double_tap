@@ -12,3 +12,15 @@ max-width: 100%;
     color: grey;
     font-size: small;
 }
+
+img {
+    border: 0 none;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+
+.font-size{
+    font-size: 10px;
+}
