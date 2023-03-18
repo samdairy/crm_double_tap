@@ -1,3 +1,4 @@
+/* BELOW HERE IS ALL CSS for Enoch's Navbar and Focus on Your Business page header */
 .box{
 max-height: 10%;
 max-width: 100%;
@@ -12,3 +13,103 @@ max-width: 100%;
     color: grey;
     font-size: small;
 }
+
+/* Above here is all CSS for Enoch's Navbar and Focus On Your Business page header */
+    
+
+
+
+
+
+/* BELOW HERE IS ALL CSS FOR THE FOOTER by Swan */
+footer {
+    background-color: blue;
+    padding-top: 30px;
+        padding-bottom: 100px;
+}
+
+footer * {
+    font-weight:bold;
+}
+
+#footer-div{
+    display:flex;
+    flex-direction: column;
+    height: 40vh;
+    padding: 40px;
+
+}
+.center-foot-col{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    color: white;
+    width:fit-content;
+}
+
+#footer-buttons-div {
+    padding-top: 5px;
+    padding-bottom:15px
+}
+
+#btn-get-started{
+    color:white;
+    background-color: rgb(131, 211, 11);
+    /* padding-right: 10px; */
+        /* padding-left: 25px; */
+    margin-right: 50px;
+    border:solid 1px rgb(131, 211, 11);
+}
+
+#btn-get-started:hover {
+    /* color: rgb(131, 211, 11); */
+    color:white;
+    border-color: white;
+    background-color:transparent;
+}
+
+#span-get-started {
+    margin-right: 20px;
+    margin-left: 25px;
+    font-size: 10pt;
+    
+}
+
+#btn-chat {
+    background-color: white;
+    color: blue;
+    border: 1px solid white;    
+}
+    
+#btn-chat:hover {
+     /* color: none; */
+     background-color: blue;
+     border-color: white;
+     color:white;
+}
+
+#span-chat{
+    font-size: 8pt;
+
+}
+
+#footer-ad-bottom * {
+    font-weight:normal;
+    font-size: 8pt;
+    margin: 2px;
+}
+
+.mini-ellipse-img {
+    background-color: blue;
+    border: none;    
+    border-radius: 100%;
+    padding-left:6px;
+    height:9px;
+    width: 6px;
+    
+}
+
+footer .mini-ellipse-img {
+    background-color: aliceblue;
+}
+/* END OF CSS FOR THE FOOTER *//* Above here is all CSS for Enoch's Navbar and Focus On Your Business page header */
