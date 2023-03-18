@@ -1,0 +1,14 @@
+.box{
+max-height: 10%;
+max-width: 100%;
+}
+
+.bold-font{
+    font-weight: 900; 
+    color: darkgray;
+}
+
+.small{
+    color: grey;
+    font-size: small;
+}
