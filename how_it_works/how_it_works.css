@@ -1,7 +1,7 @@
 /* BELOW HERE IS ALL CSS for Enoch's Navbar and Focus on Your Business page header */
 .box{
-max-height: 10%;
-max-width: 100%;
+    max-height: 10%;
+    max-width: 100%;
 }
 
 .bold-font{
@@ -125,5 +125,5 @@ footer * {
 footer .mini-ellipse-img {
     background-color: aliceblue;
 }
-/* END OF CSS FOR THE FOOTER *//* Above here is all CSS for Enoch's Navbar and Focus On Your Business page header */
+/* END OF CSS FOR THE FOOTER */
 
