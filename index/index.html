@@ -25,8 +25,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!-- beginning of navigation bar by Enoch-->
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="../images_all/CRM-Main/Logo.png" alt="doubletap logo" width="" height="30"
-                    class="d-inline-block align-text-top">
+                <img src="../images_all/CRM-Main/Logo.png" alt="doubletap logo" width="" height="30" class="d-inline-block align-text-top">
             </a>
             <div class="collapse navbar-collapse">
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -63,48 +62,57 @@
                         </li>
                     </ul>
                     <div class=col></div>
-                    <div class=col>
-                        <a class="btn btn-primary" href="#" role="button">Sign In</a>
-                        <a class="btn btn-outline-primary" href="#" role="button">Try It Free</a>
-                    </div>
-                </div>
+                        <div class=col-2>
+                            <a class="btn btn-primary" data-bs-toggle="button" href="#" role="button">Sign In</a>
+                            <a class="btn btn-outline-primary" href="#" role="button">Try It Free</a>
+                        </div>
+                 </div>
             
             </div>
-            </div>
-        </nav> <!-- end of navigation bar by Enoch-->
+        </div> 
+    </nav> <!-- end of navigation bar by Enoch-->
 
     <div class ="container"> <!--begining of focuos on your business by Enoch-->
-            <div class = "row">
+        <div class = "row">
+            <div><p></p></div>
+        </div>
+        <div class = "row">
+            <div class = "col-5">
+                <div><h1>Focus on</h1></div>
+                <div><h1>Your Business</h1></div>
+                <div><h4>Let Us Handle Everything Else</h4></div>
+                <p class="text-muted">Subscription Billing, powered with revenue retention tools and 
+                        a seamless customer experience without the technical hurdles.</p><br>
+                <button class="btn btn-lg btn-primary" type="button">
+                    <span id="span-get-started">Sign Up Free</span>
+                    <i class="fas fa-solid fa-angle-double-right fa-xs"></i>
+                </button>
+                <button id="btn-chat-foucs" class="btn btn-lg btn-outline-primary" type="button">
+                    <i class="fas fa-comment-dots fa" alt="chat bubble image"></i>
+                    <span id="span-chat">Chat With Us</span>
+                </button>
                 <div><p></p></div>
+                <div class="text-muted">Alreay using <span class="bold-font">Double</span>Tap? <span class="bold-font">
+                     Sign In</span></div>
+                <div><p></p></div>
+                            <div id="footer-ad-bottom">
+                            <span>Free 14 day trial</span>
+                            <img class="mini-ellipse-img" alt=""></img>
+                            <span>Manage Customers in Minutes</span>
+                            <img class="mini-ellipse-img" alt=""></img>
+                            <span>Cancel at Any Time</span>
+                            </div>
+                
             </div>
-            <div class = "row">
-                <div class = "col-5">
-                    <div><h1>Focus on</h1></div>
-                    <div><h1>Your Business</h1></div>
-                    <div><h4>Let Us Handle Everything Else</h4></div>
-                    <p class="text-muted">Subscription Billing, powered with revenue retention tools and 
-                            a seamless customer experience without the technical hurdles.</p>
-                    <a class="btn btn-primary" data-bs-toggle="button" href="#" role="button">Sign Up Free</a>
-                    <a class="btn btn-outline-primary" href="#" role="button">Chat With Us</a>
-                    <div><p></p></div>
-                    <div class="text-muted">Alreay using <span class="bold-font">Double</span>Tap? <span class="bold-font">
-                         Sign In</span></div>
-                    <div><p></p></div>
-                    <div class="font-size">Free 14 Day Trial<span> Manange Customers in Mintues</span>Cancel at Anytime<span class="bold-font">
-                    </span></div>
-                    
-                </div>
-                <div class="col-2">
-                </div>
-                <div class="col-4" >
-                    <div class="row">
-                    <img src="../images_all/CRM-Main/Header-Side.png" alt="header" class="img-fluid">
-                    <div class ="box"></div>
-                </div>
-             </div>
+            <div class="col-2">
             </div>
-        </div><!-- end of focus on your business by Enoch-->
-
+            <div class="col-4" >
+                <div class="row">
+                <img src="../images_all/CRM-Main/Header-Side.png" alt="header" class="img-fluid">
+            </div>
+         </div>
+    </div>
+    </div><!-- end of focus on your business by Enoch-->
 
     <div id="bodycontent-container" class="container" > <!-- Landing Page main content starts here -->
 
@@ -189,8 +197,7 @@
 
     </div> <!-- Landing Page main content ends here -->
 
-    <!-- footer by Swan -->
-    <footer class="vh-75">
+    <footer class="vh-75"><!-- footer by Swan -->
         <div id="footer footer-div" class="container-fluid">
             <!-- entire footer goes in 1 Row -->
             <div class="row">
@@ -203,22 +210,22 @@
                     <h6>Let's Get Started</h6>
                         <div id="footer-buttons-div">
                             <button id="btn-get-started" class="btn btn-sm btn-success" type="button">
-                                <div id="div-get-started">Get Started</div>
+                                <span id="span-get-started">Get Started</span>
                                 <i class="fas fa-solid fa-angle-double-right fa-xs"></i>
                             </button>
                             <button id="btn-chat" class="btn btn-sm btn-outline-primary" type="button">
                                 <i class="fas fa-comment-dots fa" alt="chat bubble image"></i>
-                               <div id="div-chat">Chat With Us</div>
+                               <span id="span-chat">Chat With Us</span>
                             </button>
                         </div>
                         
                         <div id="footer-ad-bottom">
-                            <div>Free 14 day trial</div>
+                            <span>Free 14 day trial</span>
                             <img class="mini-ellipse-img" alt=""></img>
-                            <div>Manage Customers in Minutes</div>
+                            <span>Manage Customers in Minutes</span>
                             <img class="mini-ellipse-img" alt=""></img>
-                            <div>Cancel at Any Time</div>
-                        </div>
+                            <span>Cancel at Any Time</span>
+                            </div>
 
                 </div>
 
@@ -226,8 +233,7 @@
                 </div>
             </div>
                 
-    </footer>
-    <!-- end of Footer by Swan -->
+    </footer><!-- end of Footer by Swan -->
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
