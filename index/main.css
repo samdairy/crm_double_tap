@@ -1,29 +1,79 @@
-#div_take_up_space{
-    height: 220vh;
-    background-color: rgb(228, 200, 200);
-}
-
 /* BELOW HERE IS ALL CSS for Enoch's Navbar and Focus on Your Business page header */
 .box{
     max-height: 10%;
     max-width: 100%;
-    }
+}
     
-    .bold-font{
-        font-weight: 900; 
-        color: darkgray;
-    }
+.bold-font{
+    font-weight: 900; 
+    color: darkgray;
+}
     
-    .small{
-        color: grey;
-        font-size: small;
-    }
+.small{
+    color: grey;
+    font-size: small;
+}
+
+
+img {
+    border: 0 none;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+
+.font-size{
+    font-size: 10px;
+}
+
 /* Above here is all CSS for Enoch's Navbar and Focus On Your Business page header */
     
+/* Starting here is CSS for the main content of the page */
+
+#bodycontent-container{
+    height: 120vh;
+    background-color: rgb(228, 200, 200);
+}
+
+
+#row-start-to-explore {
+    background-color: red;
+    text-align:center;
+}
+
+#rowcontent-start-to-explore{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#explore-row-4-squares {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.explore-box {
+    color:green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:orange dashed 1px;
+}
+
+.fa-dollar-sign{
+    border: 1px dotted blue;
+}
+
+.explore-box .explore-caption{
+    border: red solid 1px;
+
+  
+}
 
 
 
-
+/* CSS for main content ends here. */
 
 /* BELOW HERE IS ALL CSS FOR THE FOOTER by Swan */
 footer {
@@ -100,14 +150,15 @@ footer * {
 #footer-ad-bottom * {
     font-weight:normal;
     font-size: 8pt;
-    margin: 2px;
+    margin: 3px;
+    display: inline;
 }
 
 .mini-ellipse-img {
     background-color: blue;
     border: none;    
     border-radius: 100%;
-    padding-left:6px;
+    padding-left:4px;
     height:9px;
     width: 6px;
     
