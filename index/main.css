@@ -32,46 +32,243 @@ img {
 /* Starting here is CSS for the main content of the page */
 
 #bodycontent-container{
-    height: 120vh;
-    background-color: rgb(228, 200, 200);
+    /* height: 120vh; */
+    /* background-color: rgb(228, 200, 200); */
 }
 
 
+            /* BEGINNING OF START TO EXPLORE ICONS x4 */
 #row-start-to-explore {
-    background-color: red;
+    /* background-color: red; */
     text-align:center;
+    padding-top: 50px;
+    justify-content: center;
+
 }
 
 #rowcontent-start-to-explore{
     display:flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 30px;
+}
+
+#rowcontent-start-to-explore h4{
+    margin-bottom: 3vh;
+}
+
+#rowcontent-start-to-explore div{
+    width:80vh;
+    /* margin-bottom: -3vh; */
 }
 
 #explore-row-4-squares {
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+ 
 }
 
-.explore-box {
-    color:green;
+
+.outer-explore-box {
+    /* color:green; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    border:orange dashed 1px;
+
+    /* border:orange dashed 1px; */
+
+
+}
+
+.inner-explore-box {
+    /* color:green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border:solid black 1px;
+    border-radius: 15px;
+    width: 19vh;
+    height: 20vh;
+}
+
+.inner-explore-box div{
+    margin:20px;
+    margin-top:auto;
+}
+.inner-explore-box .div-icon{
+    margin-top:35px;
+    width:60px;
+    height:70px;
+    /* border: 1px black solid; */
+    border-radius: 50%;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+.inner-explore-box .div-img{
+
+}
+
+
+.explore-caption-blacktext{
+    /* border: dashed blue 1px; */
+
+}
+
+.explore-caption-whitetext{
+    /* border: dashed blue 1px; */
+    color:white;
+    background-color: blue;
 }
 
 .fa-dollar-sign{
-    border: 1px dotted blue;
+    color:black;
+}
+            /* END OF START TO EXPLORE ICONS x4 */
+
+
+            /* BEGINNING OF START ACCEPTING PAYMENTS SUPERBOX */
+#row-start-accepting-payments {
+    margin-top: 80px;
+    border-radius: 35px;
+    margin-bottom: 80px;
 }
 
-.explore-box .explore-caption{
-    border: red solid 1px;
+#leftsection-start-accepting-payments{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
-  
 }
 
 
+#rightsection-start-accepting-payments{
+    background-color: blue;
+    border-top-right-radius:32px;
+    border-bottom-right-radius: 32px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#rightsection-start-accepting-payments *{
+    color: white;
+}
+
+#rightsection-payments-inner-box{
+    margin-right: 8em;
+    margin-left: 2em;
+
+}
+
+#rightsection-payments-inner-box div{
+    margin-top: 4vh;
+}
+
+#rightsection-payments-inner-box>div>li{
+list-style-type: none;
+font-size: 11.5pt;
+font-weight: 100;
+margin-top: 1vh;
+margin-bottom: 1vh;
+}
+
+.btn-learn-more{
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    border: 2px black solid;
+    color:black;
+    margin-top: 5vh;
+    margin-bottom: 11vh;
+}
+
+.btn-learn-more:hover{
+    background-color:rgb(0, 80, 255);
+    border-color: rgb(0, 80, 255);
+}
+
+#span-learn-more{
+    margin-right: 60px;
+    margin-left: 55px;
+    font-size: 14pt;
+    margin-bottom: 3px;
+}
+#btn-l-m-blue:hover{
+    background-color:white;
+}
+
+#btn-l-m-blue:hover *{
+    color:blue;
+}
+            /* END OF START ACCEPTING PAYMENTS SUPERBOX */
+
+            /* BEGINNING OF SOLUTIONS QUADRANTS */
+#solutions-row-1{
+    margin-top: 20vh;
+    margin-bottom: -2vh;
+}
+
+#solutions-row-2{
+    /* margin-bottom: 8vh; */
+}
+
+#solutions-row-3{
+    margin-bottom: 8vh;
+}
+
+.solutions-quadrant-box{
+    /* border: dashed green 1px; */
+    text-align:center;
+    margin: 10vh;
+    width: 50vh;
+    height:30vh;
+    /* padding: 5vh; */
+}
+
+.sol-quad-inner-box div *{
+    /* border: dotted blue 2px;
+    display:inline-flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center; */
+}
+.sol-quad-inner-box btn{
+
+}
+
+.quad-image-div {
+    background-image: url(/images_all/CRM-Main/Ellipse\ 13@2x.png);
+    /* border: black 1px dashed; */
+    background-repeat:no-repeat;
+    background-size: contain;
+    /* background-attachment: local;; */
+    /* background-position: 30px; */
+    display:inline-flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    justify-items: center;
+    text-align:center;
+    width: 150px;
+    height: 150px;
+    /* margin: 10vh; */
+    /* padding: 5vh; */
+    
+}
+.quad-image-div i{
+   color:rgb(0, 80, 255);
+}
+.quad-image-div img{
+    height: 70px;
+}
 
 /* CSS for main content ends here. */
 
@@ -79,7 +276,7 @@ img {
 footer {
     background-color: blue;
     padding-top: 30px;
-        padding-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 footer * {
