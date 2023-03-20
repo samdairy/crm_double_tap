@@ -26,6 +26,175 @@ img {
 .font-size{
     font-size: 10px;
 }
+#teardrop{
+    background-color: #0850f8;
+    width: 120px;
+    height: 120px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    margin-right: 25px;
+    box-shadow: 5px 10px 8px 10px lightgray;
+    font-size: small;
+    color:white;
+    padding: 10px 0px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+#shadow{
+    box-shadow: 5px 10px 8px 10px lightgray;
+}
+
+#box{
+    background-color: whitesmoke;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    box-shadow: 5px 10px 8px 10px lightgray;
+    font-size:small;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 50px;
+    color:grey
+
+}
+
+#oval{
+        background-color: #0850f8;
+        width: 135px;
+        height: 120px;
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px;
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        vertical-align: middle;
+        color:white;
+        box-shadow: 5px 10px 8px 10px lightgray;
+        font-size:small;
+        text-align: center;
+        padding: 10px 0px;
+        margin-bottom: 50px;
+      
+
+}
+.alignment{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+    font-size:x-small;
+}
+   
+    
+.text{
+    vertical-align: middle;
+    color:grey;
+    font-size:smaller;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.white{
+    color:white
+}
+.grey{
+    color:grey
+}
+
+#circle{
+    background-color: #0850f8;
+    width: 120px;
+    height: 120px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 60px;
+    margin-right: 25px;
+    box-shadow: 5px 10px 8px 10px lightgray;
+    font-size: small;
+    color:white;
+    padding: 10px 0px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#top-right-curve{
+    background-color: whitesmoke;
+    width: 120px;
+    height: 120px;
+    border-top-right-radius: 50px;
+    margin-right: 25px;
+    box-shadow: 5px 10px 8px 10px lightgray;
+    font-size: small;
+    color:white;
+    padding: 10px 0px;
+    text-align: center;
+    margin-bottom: 50px;
+    color:grey
+}
+
+#top-right-curve{
+    background-color: whitesmoke;
+    width: 120px;
+    height: 120px;
+    border-top-right-radius: 60px;
+    margin-right: 25px;
+    box-shadow: 5px 10px 8px 10px lightgray;
+    font-size: small;
+    color:white;
+    padding: 10px 0px;
+    text-align: center;
+    margin-bottom: 50px;
+    color:grey
+}
+#bottom-right-curve{
+    background-color: #0850f8;
+    width: 120px;
+    height: 120px;
+    border-bottom-right-radius: 60px;
+    margin-right: 25px;
+    box-shadow: 5px 10px 8px 10px lightgray;
+    font-size: small;
+    color:white;
+    padding: 10px 0px;
+    text-align: center;
+    margin-bottom: 50px;
+    color:white
+}
+
+#circle-white{
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 60px;
+    margin-right: 25px;
+    box-shadow: 5px 10px 8px 10px lightgray;
+    font-size: small;
+    color:grey;
+    padding: 10px 0px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#bottom-left-curve{
+    background-color: #0850f8;
+    width: 120px;
+    height: 120px;
+    border-bottom-left-radius: 60px;
+    margin-right: 25px;
+    box-shadow: 5px 10px 8px 10px lightgray;
+    font-size: small;
+    color:white;
+    padding: 10px 0px;
+    text-align: center;
+    margin-bottom: 50px;
+    color:white;
+}
+
 
 /* Above here is all CSS for Enoch's Navbar and Focus On Your Business page header */
     
