@@ -421,7 +421,7 @@ margin-bottom: 1vh;
 }
 
 .quad-image-div {
-    background-image: url(/images_all/CRM-Main/Ellipse\ 13@2x.png);
+    background-image: url(../images_all/CRM-Main/Ellipse\ 13@2x.png);
     /* border: black 1px dashed; */
     background-repeat:no-repeat;
     background-size: contain;
